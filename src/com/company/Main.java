@@ -15,9 +15,7 @@ public class Main {
         System.out.println("Please enter a character: ");
         userInputVar = input.next();
 
-        //Block 2: Catching invalid inputs.
-
-        //Block 3: Conversion
+        //Block 2: Conversion
         varCharacter = userInputVar.charAt(0);
         //Had to Google this part. Didn't know how to get Scanner to return single char.
         charNumReturn = (int) varCharacter;
